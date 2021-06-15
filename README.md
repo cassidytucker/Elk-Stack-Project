@@ -50,12 +50,7 @@ What was its IP address?
 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
-Name	Publicly Accessible	IP Address Allowed
-Jump Box	Yes	Home IP Address
-Web-1	No	10.0.0.4
-Web-2	No	10.0.0.4
-Web-3	No	10.0.0.4
-Elk-VM	No	10.0.0.4 and Home IP Address![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
+![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
 
 ### Elk Configuration
 
