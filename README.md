@@ -62,6 +62,8 @@ Elk-VM
 Server
 23.99.80.187(Public)      10.1.0.4(Private)
 Linux
+Name	Function	IP Address	Operating System![image](https://user-images.githubusercontent.com/85799340/122126672-16a27700-ce00-11eb-8ecb-3dc9e9790e7c.png)
+
 
 
 ### Access Policies
