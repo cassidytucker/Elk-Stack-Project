@@ -104,7 +104,7 @@ Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to c
 Answer the following questions to fill in the blanks:
 
 Which file is the playbook? 
-Install-elk.yml
+#Install-elk.yml
 
 Where do you copy it?
 /etc/ansible/
