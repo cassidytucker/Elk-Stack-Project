@@ -37,7 +37,8 @@ It records the metrics and statistics that it collects and ships them to the out
 
 The configuration details of each machine may be found below.
 
-(https://user-images.githubusercontent.com/85799340/122127411-1f477d00-ce01-11eb-9acd-f7a78cf15087.png)
+-![image](https://user-images.githubusercontent.com/85799340/122127825-c3312880-ce01-11eb-902f-73143678fc27.png)
+
 
 ### Access Policies
 
@@ -50,7 +51,8 @@ What was its IP address?
 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
-![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
+
+-![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
 
 ### Elk Configuration
 
@@ -67,6 +69,7 @@ Download and launch a docker elk container
 Enable docker service
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
