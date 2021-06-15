@@ -48,11 +48,9 @@ My Home Public IP Address
 Machines within the network can only be accessed by Jump-Box.
 
 Which machine did you allow to access your ELK VM?
-
 Jump-Box
 
 What was its IP address?
-
 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
@@ -105,9 +103,10 @@ Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to c
 
 Answer the following questions to fill in the blanks:
 
-Which file is the playbook? Install-elk.yml
+Which file is the playbook? 
+Install-elk.yml
 
-Where do you copy it?_
+Where do you copy it?
 /etc/ansible/
 
 Which file do you update to make Ansible run the playbook on a specific machine? 
