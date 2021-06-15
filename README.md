@@ -4,11 +4,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![CloudSecurityHW.pdf)
+[CloudSecurityHW.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - filebeat-playbook.yml_
+ filebeat-playbook.yml_
 
 This document contains the following details:filebeat-playbook.yml 
 - Description of the Topology
@@ -44,9 +44,11 @@ The configuration details of each machine may be found below.
 
 Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 
 My Home Public IP Address
-Machines within the network can only be accessed by Jump-Box-Provisioner.
+Machines within the network can only be accessed by Jump-Box.
+
 Which machine did you allow to access your ELK VM?
-Jump-Box-Provisioner
+Jump-Box
+
 What was its IP address?
 10.0.0.4
 
@@ -61,7 +63,7 @@ What is the main advantage of automating configuration with Ansible?
 The playbooks can be deployed to any or all VM’s without having to do each 1 by 1.
 
 The playbook implements the following tasks:
-In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+
 Install docker.io (This installs docker.io)
 Install python3-pip (This installs python3-pip)
 Install Docker module (This installs docker)
@@ -80,18 +82,18 @@ This ELK server is configured to monitor the following machines:
 - 10.0.0.8
 
 We have installed the following Beats on these machines:
-- Filebeat and Metrictbeat
+Filebeat and Metrictbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat collects log files of changes from specified machines and forwards them to Elasticsearch or Logstash for indexing.
+Filebeat collects log files of changes from specified machines and forwards them to Elasticsearch or Logstash for indexing.
 Metricbeat collects metrics and statistics from specified machines and forwards them to Elasticsearch or Logstash.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below: 
-- Copy the install-elk.yml to /etc/ansible
-- Update the hosts file to include
+Copy the install-elk.yml to /etc/ansible
+Update the hosts file to include
 
 [elk]
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
@@ -106,10 +108,10 @@ Where do you copy it?_
 /etc/ansible/
 
 Which file do you update to make Ansible run the playbook on a specific machine? 
--/etc/ansible/hosts
+/etc/ansible/hosts
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
 
 Which URL do you navigate to in order to check that the ELK server is running?
--http://23.99.80.187:5601/app/kibana#/home
+http://23.99.80.187:5601/app/kibana#/home
