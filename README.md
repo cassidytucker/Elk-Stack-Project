@@ -104,16 +104,21 @@ Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to c
 Answer the following questions to fill in the blanks:
 
 Which file is the playbook? 
+
 Install-elk.yml
 
 Where do you copy it?
+
 /etc/ansible/
 
 Which file do you update to make Ansible run the playbook on a specific machine? 
+
 /etc/ansible/hosts
 
-How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+
 There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
 
 Which URL do you navigate to in order to check that the ELK server is running?
+
 http://23.99.80.187:5601/app/kibana#/home
