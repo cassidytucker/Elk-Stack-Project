@@ -92,13 +92,15 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below: 
 - Copy the install-elk.yml to /etc/ansible
 - Update the hosts file to include
--[elk]
--10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+
+[elk]
+10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 
 Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to check that the installation worked as expected.
 
-Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Install-elk.yml
+Answer the following questions to fill in the blanks:
+
+Which file is the playbook? Install-elk.yml
 
 Where do you copy it?_
 /etc/ansible/
@@ -109,5 +111,5 @@ Which file do you update to make Ansible run the playbook on a specific machine?
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
 
--Which URL do you navigate to in order to check that the ELK server is running?
+Which URL do you navigate to in order to check that the ELK server is running?
 -http://23.99.80.187:5601/app/kibana#/home
