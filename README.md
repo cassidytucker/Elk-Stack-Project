@@ -37,14 +37,7 @@ It records the metrics and statistics that it collects and ships them to the out
 
 The configuration details of each machine may be found below.
 
-
-Name	Function	IP Address	Operating System
-Jump Box	Gateway	52.188.204.113(Public) 10.0.0.4(Private)	Linux
-Web-1	Server	52.249.250.202(Public) 10.0.0.5(Private)	Linux
-Web-2	Server	52.249.250.202(Public) 10.0.0.6(Private)	Linux
-Web-3	Server	52.249.250.202(Public) 10.0.0.8(Private)	Linux
-Elk-VM	Server	52.249.250.202(Public) 10.1.0.4(Private)	Linux![image](https://user-images.githubusercontent.com/85799340/122126784-3df94400-ce00-11eb-8d9e-11bf52be4c04.png)
-
+(https://user-images.githubusercontent.com/85799340/122127411-1f477d00-ce01-11eb-9acd-f7a78cf15087.png)
 
 ### Access Policies
 
@@ -58,13 +51,7 @@ What was its IP address?
 
 A summary of the access policies in place can be found in the table below.
 
-
-Name	Publicly Accessible	IP Address Allowed
-Jump Box	Yes	Home IP Address
-Web-1	No	10.0.0.4
-Web-2	No	10.0.0.4
-Web-3	No	10.0.0.4
-Elk-VM	No	10.0.0.4 and Home IP Address![image](https://user-images.githubusercontent.com/85799340/122126822-4baec980-ce00-11eb-9a2f-b5c2123b2db2.png)
+https://user-images.githubusercontent.com/85799340/122127465-34241080-ce01-11eb-94b3-2ab0b6e84ab8.png)
 
 ### Elk Configuration
 
