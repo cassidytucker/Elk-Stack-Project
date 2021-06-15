@@ -4,7 +4,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[CloudSecurityHW.pdf)
+CloudSecurityHW.pdf
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -38,7 +38,7 @@ It records the metrics and statistics that it collects and ships them to the out
 
 The configuration details of each machine may be found below.
 
--![image](https://user-images.githubusercontent.com/85799340/122127825-c3312880-ce01-11eb-902f-73143678fc27.png)
+![image](https://user-images.githubusercontent.com/85799340/122127825-c3312880-ce01-11eb-902f-73143678fc27.png)
 
 
 ### Access Policies
@@ -55,7 +55,7 @@ What was its IP address?
 
 A summary of the access policies in place can be found in the table below.
 
--![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
+![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
 
 ### Elk Configuration
 
