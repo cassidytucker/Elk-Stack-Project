@@ -38,32 +38,12 @@ It records the metrics and statistics that it collects and ships them to the out
 The configuration details of each machine may be found below.
 
 
-Name
-Function
-IP Address
-Operating System
-Jump Box
-Gateway
-52.188.204.113(Public) 10.0.0.4(Private)
-Linux
-Web-1
-Server
-52.249.250.202(Public) 10.0.0.5(Private)
-Linux
-Web-2
-Server
-52.249.250.202(Public) 10.0.0.6(Private)
-Linux
-Web-3
-Server
-52.249.250.202(Public) 10.0.0.8(Private)
-Linux
-Elk-VM
-Server
-23.99.80.187(Public)      10.1.0.4(Private)
-Linux
-Name	Function	IP Address	Operating System![image](https://user-images.githubusercontent.com/85799340/122126672-16a27700-ce00-11eb-8ecb-3dc9e9790e7c.png)
-
+Name	Function	IP Address	Operating System
+Jump Box	Gateway	52.188.204.113(Public) 10.0.0.4(Private)	Linux
+Web-1	Server	52.249.250.202(Public) 10.0.0.5(Private)	Linux
+Web-2	Server	52.249.250.202(Public) 10.0.0.6(Private)	Linux
+Web-3	Server	52.249.250.202(Public) 10.0.0.8(Private)	Linux
+Elk-VM	Server	52.249.250.202(Public) 10.1.0.4(Private)	Linux![image](https://user-images.githubusercontent.com/85799340/122126784-3df94400-ce00-11eb-8d9e-11bf52be4c04.png)
 
 
 ### Access Policies
@@ -79,29 +59,12 @@ What was its IP address?
 A summary of the access policies in place can be found in the table below.
 
 
-
-
-
-
-Name
-Publicly Accessible
-IP Address Allowed
-Jump Box
-Yes
-Home IP Address
-Web-1
-No
-10.0.0.4
-Web-2
-No
-10.0.0.4
-Web-3
-No
-10.0.0.4
-Elk-VM
-No
-10.0.0.4 and Home IP Address
-
+Name	Publicly Accessible	IP Address Allowed
+Jump Box	Yes	Home IP Address
+Web-1	No	10.0.0.4
+Web-2	No	10.0.0.4
+Web-3	No	10.0.0.4
+Elk-VM	No	10.0.0.4 and Home IP Address![image](https://user-images.githubusercontent.com/85799340/122126822-4baec980-ce00-11eb-9a2f-b5c2123b2db2.png)
 
 ### Elk Configuration
 
@@ -157,7 +120,5 @@ _Answer the following questions to fill in the blanks:_
 -How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
 
-- _Which URL do you navigate to in order to check that the ELK server is running?
+-Which URL do you navigate to in order to check that the ELK server is running?
 -http://23.99.80.187:5601/app/kibana#/home
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
