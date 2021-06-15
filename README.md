@@ -50,8 +50,12 @@ What was its IP address?
 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
-
-https://user-images.githubusercontent.com/85799340/122127465-34241080-ce01-11eb-94b3-2ab0b6e84ab8.png)
+Name	Publicly Accessible	IP Address Allowed
+Jump Box	Yes	Home IP Address
+Web-1	No	10.0.0.4
+Web-2	No	10.0.0.4
+Web-3	No	10.0.0.4
+Elk-VM	No	10.0.0.4 and Home IP Address![image](https://user-images.githubusercontent.com/85799340/122127668-8402d780-ce01-11eb-8059-c6321c7890c4.png)
 
 ### Elk Configuration
 
@@ -93,18 +97,18 @@ SSH into the control node and follow the steps below:
 -[elk]
 -10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 
-- Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to check that the installation worked as expected.
+Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to check that the installation worked as expected.
 
-_Answer the following questions to fill in the blanks:_
+Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Install-elk.yml
 
--Where do you copy it?_
+Where do you copy it?_
 /etc/ansible/
 
-- _Which file do you update to make Ansible run the playbook on a specific machine? 
+Which file do you update to make Ansible run the playbook on a specific machine? 
 -/etc/ansible/hosts
 
--How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
 
 -Which URL do you navigate to in order to check that the ELK server is running?
