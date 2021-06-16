@@ -4,7 +4,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-CloudSecurityHW.pdf
+https://github.com/cassidytucker/Project1/blob/c41866d3bdb06d39a7295232931e240ea223c71c/Diagrams/CloudSecurityHW.pdf
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
