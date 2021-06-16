@@ -65,11 +65,11 @@ The playbooks can be deployed to any or all VM’s without having to do each 1 b
 
 The playbook implements the following tasks:
 
-Install docker.io (This installs docker.io)
-Install python3-pip (This installs python3-pip)
-Install Docker module (This installs docker)
-Download and launch a docker elk container
-Enable docker service
+- Install docker.io (This installs docker.io)
+- Install python3-pip (This installs python3-pip)
+- Install Docker module (This installs docker)
+- Download and launch a docker elk container
+-Enable docker service
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
