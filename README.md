@@ -113,7 +113,7 @@ Which file do you update to make Ansible run the playbook on a specific machine?
 - /etc/ansible/hosts
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
+- There is a section in the /etc/ansible/host file where you can put each Virtual Machine with a specific group
 
 Which URL do you navigate to in order to check that the ELK server is running?
-http://23.99.80.187:5601/app/kibana#/home
+- http://23.99.80.187:5601/app/kibana#/home
