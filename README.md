@@ -91,14 +91,12 @@ Metricbeat collects metrics and statistics from specified machines and forwards 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-SSH into the control node and follow the steps below: 
-Copy the install-elk.yml to /etc/ansible
-Update the hosts file to include
-
-[elk]
-10.1.0.4 ansible_python_interpreter=/usr/bin/python3
-
-Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to check that the installation worked as expected.
+- SSH into the control node and follow the steps below: 
+ -  Copy the install-elk.yml to /etc/ansible
+ -  Update the hosts file to include
+  - [elk]
+  - 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+  - Run the playbook, and navigate to http://23.99.80.187:5601/app/kibana#/home to check that the installation worked as expected.
 
 Answer the following questions to fill in the blanks:
 
