@@ -38,7 +38,7 @@ What does Metricbeat record?
 
 The configuration details of each machine may be found below.
 
-![image](https://user-images.githubusercontent.com/85799340/122127825-c3312880-ce01-11eb-902f-73143678fc27.png)
+![image](https://user-images.githubusercontent.com/85799340/122299533-1ff91580-cecc-11eb-9d0f-ce537ee75cb9.png)
 
 ### Access Policies
 
