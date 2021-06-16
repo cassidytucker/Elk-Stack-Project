@@ -34,7 +34,7 @@ What does Filebeat watch for?
 It watches the log files that you specify along with any changes to them and forwards them to Elasticsearch or Logstash for indexing.
 
 What does Metricbeat record?
-It records the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
+- It records the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
 
@@ -44,14 +44,14 @@ The configuration details of each machine may be found below.
 ### Access Policies
 
 Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 
-My Home Public IP Address
-Machines within the network can only be accessed by Jump-Box.
+- My Home Public IP Address
+- Machines within the network can only be accessed by Jump-Box.
 
 Which machine did you allow to access your ELK VM?
-Jump-Box
+- Jump-Box
 
 What was its IP address?
-10.0.0.4
+- 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
 
@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 - Install python3-pip (This installs python3-pip)
 - Install Docker module (This installs docker)
 - Download and launch a docker elk container
--Enable docker service
+- Enable docker service
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
