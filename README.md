@@ -58,7 +58,8 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous.
+
 What is the main advantage of automating configuration with Ansible?
 The playbooks can be deployed to any or all VM’s without having to do each 1 by 1.
 
